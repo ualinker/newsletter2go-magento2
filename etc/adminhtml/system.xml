@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="newsletter2go" translate="label" sortOrder="100">
+            <label>
+                <![CDATA[<img style="width: 16px; margin-left: -5px; margin-right: 5px; vertical-align: bottom;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowQUZFNzVCQjM2QjYxMUU1OEVCREE5NEY1NDg1NkYxNCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowQUZFNzVCQzM2QjYxMUU1OEVCREE5NEY1NDg1NkYxNCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjBBRkU3NUI5MzZCNjExRTU4RUJEQTk0RjU0ODU2RjE0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjBBRkU3NUJBMzZCNjExRTU4RUJEQTk0RjU0ODU2RjE0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+ZxFskwAAA/NJREFUeNq0V11Ik1EYPvuTZKaZM8bUML0YCBFZdOEPVgRqJXRpoBAZ04uokC4MQWLQRV5oJZSahCUlmDSYQrsYGeqNoHTRnIYXlj8ptmy5nD9zOz1nfN/4+vjm/r5eeDg/O997nvOe57znjFBKCY9ErKSkRBFpjHAuHgrhxAqFIt7JjyqVyln4UgHv0fUcsI2Pj/vFBMSmJPLYg/z8fH9HR4emrKzsOMi8Rd9XEGsEtPt9mHAEMIERhbOzs1OZm5tLAoEAAQHS19e3MDg4qNvb29v0+/03EY0ByW1OVAMg8KK+vn4N31Ofz0cxKeXN6/XSnp6eAMb4gSNSGlAmKLwcRK3WZDJlsrZarSbT09PBKDBLTk4mdXV1Cp1Ot4pmkpSPRDXQmJWV5S4sLAx1pKWlkcnJyVB7ZWWFuFwuA6rrshLA6tOxelNDQ0O6sJ/pwG63h9rDw8NEo9E4oQGv3BG4npqaulNaWqr6xyEEODo6GtwGaIJYLBYUvsfhnKjjXD3mUd6qqalJZhMKBW2z2YhKpSI7OztkbGyMbG1tsVzwWlYCsMuYRF9VVRUSFltxW1sbgfJJV1dXUIA4EX4QfIXwb8pKgK2+srLSp9VqgwS2t7eJ2WwmBoOBdHd3sz0nTqeTzM7OsszYHnV+jjL8x4DA4uJi8KwvLy/TpqYmOjU1RYXW3NxMy8vLRyLdBeo4Vl9bUFDgzc7O1k5MTBCHw0FaWlqCIedtaWkpKERMcD+iw1gjgFUtWK1W6na76czMDJWy1tZWWlFR8UX22xChP4hiA3u8ZTQad4uKitKKi4tJXl5eaMza2hqprq4O4OhdZfk/0m0YK4EcFAvifohvF5FJwk1I+vv72fFbxWnIAoGA3ARUHAFDBJ304FiaQIDK+h5gDww4qUZy2XccJr+Boj0qUcd6ChAlJQRI5ufnicfj2U+8txGxM7ITgJ3U6/XBzDc3N0fW19fvoK8BeAp8YgEQjK2M5EwtsceDwE+gCSF3SXxzlmmFKR9X7e+MjIwnwr2GjyGWqrnmr5gIwA4BV7j6OTjrRenghLcE/AEu8IKF+h+KhQY7JaiPxErggKDODrdZ9Puu4GXjAZ5J+NRx5XeQ+xwrAb79DXgJ6IHTbN/ZokXPKjMmcIsfKSg0XHMoGkGFuwsa4fydwPFhLvRsey5x2/JI4rsTgrolHgI+ToBW0fln7zmWVgdAhq2Qom9Pwt9Fgfg+xEOAhbQ3jHOejC9MlkxBcY1ffbhx+xLgHo5343wl3QMy+bdo1IlNpv+G7JKaB/gH6gbwBhgF7FjYj3B3QbxvQrGlcBmQJ5DKZcfz7K8B8PG/RkDqL7pEgpKMwF8BBgDdUkbGum/oxQAAAABJRU5ErkJggg==" />Newsletter2Go]]>
+            </label>
+        </tab>
+        <section id="newsletter2go" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Configuration</label>
+            <tab>newsletter2go</tab>
+            <resource>Newsletter2Go_Export::configuration</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>API Export Settings</label>
+                <field id="token" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Token</label>
+                    <frontend_model>Newsletter2Go\Export\Model\Config\Source\Token</frontend_model>
+                    <comment>
+                        <![CDATA[This token is used for API authentication.]]>
+                    </comment>
+                    <validate>required-entry</validate>
+                </field>
+                <field id="token_reset" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Reset Token</label>
+                    <frontend_model>Newsletter2Go\Export\Model\Config\Source\TokenResetButton</frontend_model>
+                    <comment>
+                        <![CDATA[
+                            <span id="n2goHidden" style="color: red; display: none;">Save configuration so this action could effect.</span>
+                            <script type="text/javascript">
+                                function n2goTokenReset() {
+                                    var token = document.getElementById('newsletter2go_general_token');
+                                    var text = '';
+                                    var possible = 'abcdefghijklmnopqrstuvwxyz0123456789';
+
+                                    for (var i = 0; i < 32; i++) {
+                                        text += possible.charAt(Math.floor(Math.random() * possible.length));
+                                    }
+
+                                    token.value = text;
+                                    document.getElementById('n2goHidden').style.display = 'block';
+                                }
+                            </script>
+                        ]]>
+                    </comment>
+                </field>
+            </group>
+            <group id="connect" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Connect</label>
+                <field id="token_reset" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Register Integration</label>
+                    <frontend_model>Newsletter2Go\Export\Model\Config\Source\IntegrationCreateButton</frontend_model>
+                    <comment>
+                        <![CDATA[
+                            <script type="text/javascript">
+                                function n2goConnect(rawUrl) {
+                                    var token = document.getElementById('newsletter2go_general_token');
+                                    var fullUrl = rawUrl.replace('<token>', token.value);
+
+                                    window.open(fullUrl, '_blank');
+                                }
+                            </script>
+                        ]]>
+                    </comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

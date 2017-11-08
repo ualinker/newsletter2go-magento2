@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Webapi/etc/webapi.xsd">
+
+    <!--Base interface endpoints start-->
+
+    <route url="/V1/newsletter2go/test" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoBaseInterface" method="testConnection"/>
+        <resources>
+            <resource ref="Magento_Backend::stores"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/version" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoBaseInterface" method="pluginVersion"/>
+        <resources>
+            <resource ref="Magento_Backend::stores"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/stores" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoBaseInterface" method="getStores"/>
+        <resources>
+            <resource ref="Magento_Backend::stores"/>
+        </resources>
+    </route>
+
+    <!--Base interface endpoints end-->
+    <!--Customer interface endpoints start-->
+
+    <route url="/V1/newsletter2go/customer" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="getCustomers"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/customer" method="PUT">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="changeSubscriberStatus"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/customer/group" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="getCustomerGroups"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/customer/group/count" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="getCustomerCount"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/customer/fields" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="getCustomerFields"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/customer/field" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoCustomerInterface" method="getCustomerFields"/>
+        <resources>
+            <resource ref="Magento_Customer::customer"/>
+        </resources>
+    </route>
+
+    <!--Customer interface endpoints end-->
+    <!--Item interface endpoints start-->
+
+    <route url="/V1/newsletter2go/item/:itemId" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoItemInterface" method="getItem"/>
+        <resources>
+            <resource ref="Magento_Catalog::products"/>
+        </resources>
+    </route>
+    <route url="/V1/newsletter2go/itemFields" method="GET">
+        <service class="Newsletter2Go\Export\Api\Newsletter2GoItemInterface" method="getItemFields"/>
+        <resources>
+            <resource ref="Magento_Catalog::products"/>
+        </resources>
+    </route>
+
+    <!--Item interface endpoints end-->
+</routes>
